@@ -1,0 +1,144 @@
+.line {
+  @include line($width: 15%);
+}
+.intro_title {
+  position: absolute;
+  z-index: 2;
+  right: 160px;
+  margin-top: -12rem;
+  p {
+    font-family: myLightFont;
+    font-size: 2.1rem;
+    letter-spacing: 0.2rem;
+    font-weight: 100;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+}
+
+.latestNews {
+  background-color: $green;
+  margin-top: -0.5rem;
+
+  .latestNews__items {
+    display: grid;
+    grid-template-columns: 75% 25%;
+  }
+  .latestNews__header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    padding: 0 1rem 0 5rem;
+    color: $white;
+    p {
+      font-family: myLightFont;
+      font-size: 1.7rem;
+    }
+    h2 {
+      font-size: 3rem;
+    }
+    button {
+      @include button($color: $white, $text: $green);
+    }
+  }
+  .latestNews__items_cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 1rem 0 5rem;
+    color: $white;
+    margin: 2.5rem auto;
+    .latestNews__items_card {
+      padding: 0 0.5rem;
+      &:nth-child(2) {
+        border-right: 1px solid #dddddd;
+        border-left: 0.2px solid #dddddd;
+      }
+      h2 {
+        font-size: 1.2rem;
+        margin-top: 1rem;
+      }
+      p {
+        font-family: myItalicFont;
+        font-weight: 100;
+        opacity: 0.6;
+        margin: 0.5rem 0;
+      }
+      .calender_icon {
+        margin-right: 0.5rem;
+        font-weight: 100;
+      }
+    }
+  }
+  .img_covid {
+    margin-top: -0.3rem;
+    background-image: url(../../assets/image02.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: $white;
+    .covid__content {
+      margin-top: 20rem;
+      font-size: 2rem;
+      margin-left: 2rem;
+      p {
+        font-family: myLightFont;
+      }
+    }
+  }
+}
+/* research section */
+.research {
+    background-color: #f7f8fa;
+  }
+  .big_line {
+    width: 25%;
+    height: 5px;
+    display: block;
+    background-color: var(--orange);
+  }
+  .research_header {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem auto;
+  }
+  .research_header h1 {
+    font-size: 2.5rem;
+    color: var(--green);
+  }
+  .research_header button {
+    background-color: var(--orange);
+    border: none;
+    margin-top: 2rem;
+    padding: 0.7rem 1.8rem;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  .research__items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 2rem;
+  }
+  .research_img {
+    float: left;
+  }
+  .reserch__item {
+    background-color: var(--white);
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+  }
+  .reserch__item__content {
+    margin-left: 1rem;
+    display: inline-block;
+    margin-top: 2rem;
+    color: var(--green);
+  }
+  .reserch__item__content p {
+    font-family: myItalicFont;
+    margin: 0.5rem auto;
+  }
+  .calender_resarch_icon {
+    color: var(--orange);
+    margin-right: 0.5rem;
+  }
+  

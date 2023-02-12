@@ -1,0 +1,17 @@
+@mixin line($width) {
+    width: $width;
+    height: 5px;
+    display: block;
+    background-color: $orange;
+ }
+
+ @mixin button($color, $text){
+    background-color: $color;
+    border: none;
+    margin-top: 2rem;
+    padding: 0.7rem 1.8rem;
+    color: $text;
+    border-radius: 3px;
+    cursor: pointer;
+ }
+ 

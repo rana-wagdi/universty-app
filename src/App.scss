@@ -1,4 +1,6 @@
 @import './styles/base/variables';
 @import './styles/base/typography';
+@import './styles/base/mixins';
 
 @import 'styles/header/header.scss';
+@import './styles/home/home.scss'
