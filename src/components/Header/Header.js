@@ -1,6 +1,7 @@
 import logo from "../../assets/Logo.jpg";
 import { BsSearch } from "react-icons/bs";
 import HeaderItems from "./HeaderItems";
+
 const Header = () => {
   return (
     <header className="header">
