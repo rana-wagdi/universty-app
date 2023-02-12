@@ -1,0 +1,67 @@
+.header__items {
+  background-color: $green;
+  color: $white;
+  .header_content {
+    display: flex;
+    justify-content: space-between;
+    a {
+      text-decoration: none;
+    }
+  }
+  .follow_icon {
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+  }
+  .lang {
+    font-size: 1.3rem;
+    background-color: #4aacac;
+    padding: 0 0.4rem;
+  }
+  .socila_icon {
+    margin-left: 0.5rem;
+    font-size: 0.9rem;
+    color: $white;
+  }
+}
+
+.nav__items {
+  display: flex;
+  justify-content: space-between;
+  .nav__links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    li {
+      display: inline-block;
+      margin-left: 1rem;
+      a {
+        text-decoration: none;
+        color: var(--green);
+        cursor: pointer;
+      }
+    }
+  }
+  .active {
+    color: $orange !important;
+  }
+  .logo {
+    margin: 0.5rem auto;
+  }
+  .custom-select select {
+    background-color: $white;
+    border: none;
+    color: $green;
+    cursor: pointer;
+  }
+  .search {
+    position: absolute;
+    right: 0;
+    background-color: $orange;
+    padding: 1rem 0.5rem;
+    text-align: center;
+    .search_text {
+      background-color: $orange;
+      font-size: 0.8rem;
+    }
+  }
+}

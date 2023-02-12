@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "myFirstFont";
+  }
+  .container {
+    padding: 0 5rem;
+  }
+
+  @font-face {
+    font-family: "myFirstFont";
+    src:url("../../assets/Fonts/RotisSansSerifStd-Bold.otf")
+  }
+  @font-face {
+    font-family: "myLightFont";
+    src: url("../../assets/Fonts/RotisSansSerifStd-Light.otf");
+  }
+  @font-face {
+    font-family: "myItalicFont";
+    src: url("../../assets/Fonts/RotisSansSerifStd-Italic.otf");
+  }
